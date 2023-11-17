@@ -3,7 +3,7 @@ React Native
 
 Applicazione Mobile
 
-Si tratta di un songbook con la possibilità di cambiare tonalità, e altri filtri
+Si tratta di un songbook con la possibilità di cambiare tonalità, e altri filtri.
 Ancora in fase di sviluppo
 Ci sono ancora molte altre idee che devono essere implementate
 
