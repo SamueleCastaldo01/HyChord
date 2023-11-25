@@ -186,7 +186,15 @@ export const globalStyles = StyleSheet.create({
         height: 24, // Altezza dell'immagine PNG
         tintColor: "white"
       },
+      iconNavBar: {
+        width: 24, // Larghezza dell'immagine PNG
+        height: 24, // Altezza dell'immagine PNG
+        tintColor: "white"
+      },
+
+      //Autocomplete_________________________________________________________________
       containerElenco: {
+        width: "100%",
         flexDirection: 'row', // Disposizione a riga
         alignItems: 'center', // Allineamento verticale al centro
         paddingHorizontal: 10, // Spazio interno orizzontale
@@ -216,6 +224,23 @@ export const globalStyles = StyleSheet.create({
       },
       titleElenco: {
         color: colorText,
+        fontSize: 18,
+        textAlign: 'left', // Allineamento del testo a sinistra
+        fontFamily: "Newsreader_400Regular",
+      },
+      containerAutoComplete: {
+        flexDirection: 'row', // Disposizione a riga
+        alignItems: 'center', // Allineamento verticale al centro
+        width: 300,
+        height: 35,
+        textAlign: "left",
+        paddingHorizontal: 0, // Spazio interno orizzontale
+        borderBottomWidth: 0, // Spessore del bordo
+        backgroundColor: "#2F2F2F",
+        padding: 0,
+      },
+      titleAutoComplete: {
+        color: "white",
         fontSize: 18,
         textAlign: 'left', // Allineamento del testo a sinistra
         fontFamily: "Newsreader_400Regular",
